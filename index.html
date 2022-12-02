@@ -1,0 +1,43 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Score Board</title>
+</head>
+
+<body>
+    <div id="main">
+        <div class="cont">
+            <!-- Home Board -->
+            <div class="small-cont">
+                <h2>HOME</h2>
+                <p id="home-score-text">0</p>
+                <div class="buttons-cont">
+                    <button onclick="homeOne()">+1</button>
+                    <button onclick="homeTwo()">+2</button>
+                    <button onclick="homeThree()">+3</button>
+                </div>
+            </div>
+            <!-- Guest Board-->
+            <div class="small-cont">
+                <h2>GUEST</h2>
+                <p id="guest-score-text">0</p>
+                <div class="buttons-cont">
+                    <button onclick="guestOne()">+1</button>
+                    <button onclick="guestTwo()">+2</button>
+                    <button onclick="guestThree()">+3</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
